@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    text-align: center;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fb0d0d;
+    padding: 20px;
+   
+    background-image: url("https://img.freepik.com/free-vector/mountain-cave-entrance-with-scenery-night-landscape-view-high-rock-peaks-starry-sky-with-full-moon-tunnel-cavern-stones-stalactites-natural-background-cartoon-vector-illustration_107791-10635.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    margin-bottom: 30px;
+    font-size: 32px;
+    
+  }
+  
+ 
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
